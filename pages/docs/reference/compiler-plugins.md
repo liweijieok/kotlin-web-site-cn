@@ -153,14 +153,24 @@ plugins {
 
 </div>
 
-在 Maven 中，则启用 `spring` 插件：
+在 Maven 中，`kotlin-maven-allopen` 插件的依赖项提供了 `spring` 插件，因此可以这样启用：
 
 <div class="sample" markdown="1" theme="idea" mode="xml" auto-indent="false">
 
 ```xml
-<compilerPlugins>
-    <plugin>spring</plugin>
-</compilerPlugins>
+<configuration>
+    <compilerPlugins>
+        <plugin>spring</plugin>
+    </compilerPlugins>
+</configuration>
+
+<dependencies>
+    <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-maven-allopen</artifactId>
+        <version>${kotlin.version}</version>
+    </dependency>
+</dependencies>
 ```
 
 </div>
