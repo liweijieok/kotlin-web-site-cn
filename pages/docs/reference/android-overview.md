@@ -7,7 +7,7 @@ title: "Kotlin 用于 Android 开发"
 
 # 使用 Kotlin 进行 Android 开发
 
-Android mobile development has been Kotlin-first since Google I/O in 2019.
+自 2019 年 Google I/O 以来，Kotlin 就成为了 Android 移动开发的首选。
 
 Using Kotlin for Android development, you can benefit from:
 
