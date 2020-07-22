@@ -39,6 +39,14 @@ API 访问第三方框架，可以使用 [dukat](https://github.com/kotlin/dukat
 
 Kotlin 兼容 CommonJS、AMD 和 UMD，直截了当[与不同的模块系统交互](https://www.kotlincn.net/docs/tutorials/javascript/working-with-modules/working-with-modules.html)。
 
+## Kotlin/JS 今天与明天
+
+想进一步了解 Kotlin/JS 吗？ 
+
+在这个短片中，Kotlin 开发者布道师 Sebastian Aigner 将为你解释 Kotlin/JS 的主要优点、分享一些技巧与使用场景，并介绍 Kotlin/JS 的计划与即将发布的特性。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fZUL8_kgHXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Kotlin/JS 入门
 
