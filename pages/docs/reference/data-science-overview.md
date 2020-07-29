@@ -65,7 +65,7 @@ Here are some libraries that you may find useful:
 Lets-Plot 是多平台的，不仅可以用于 JVM，还可以用于 JS 与 Python。
 
 * [kravis](https://github.com/holgerbrandl/kravis) 是另一个用于表格数据可视化的库，其灵感来自于
-Python 的 [ggplot](https://ggplot2.tidyverse.org/)。
+R 的 [ggplot](https://ggplot2.tidyverse.org/)。
 
 ### Java 库
 
