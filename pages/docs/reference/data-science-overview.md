@@ -7,8 +7,8 @@ title: "Kotlin 用于数据科学"
 
 # Kotlin 用于数据科学
 
-From building data pipelines to productionizing machine learning models, Kotlin can be a great choice for 
-working with data:
+从构建数据管道到生产机器学习模型，
+Kotlin 可能是处理数据的绝佳选择：
 * Kotlin is concise, readable and easy to learn.
 * Static typing and null safety help create reliable, maintainable code that is easy to troubleshoot. 
 * Being a JVM language, Kotlin gives you great performance and an ability to leverage an entire ecosystem 
