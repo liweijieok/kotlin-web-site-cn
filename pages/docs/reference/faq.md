@@ -9,7 +9,7 @@ title: FAQ
 
 ### Kotlin 是什么？
 
-Kotlin 是一门面向 JVM、Android、JavaScript 以及原生平台的开源（OSS）静态类型编程语言。
+Kotlin 是一门面向 JVM、Android、JavaScript 以及原生平台的开源静态类型编程语言。
 它是由 [JetBrains](http://www.jetbrains.com) 开发的。该项目开始于 2010 年并且很早就已开源。第一个官方 1.0 版发布于 2016 年 2 月。
 
 ### Kotlin 的当前版本是多少？
