@@ -9,42 +9,42 @@ title: "Kotlin 用于数据科学"
 
 从构建数据管道到生产机器学习模型，
 Kotlin 可能是处理数据的绝佳选择：
-* Kotlin is concise, readable and easy to learn.
-* Static typing and null safety help create reliable, maintainable code that is easy to troubleshoot. 
-* Being a JVM language, Kotlin gives you great performance and an ability to leverage an entire ecosystem 
-of tried and true Java libraries. 
+* Kotlin 简洁，易读且易于学习。
+* 静态类型与空安全有助于创建可靠的、可维护的、易于故障排除的代码。
+* 作为一种 JVM 语言，Kotlin 提供了出色的性能表现，
+并具有充分利用久经考验的 Java 库的整个生态系统的能力。
 
-## Interactive editors
+## 交互式编辑器
 
-Notebooks such as [Jupyter Notebook](https://jupyter.org/) and [Apache Zeppelin](https://zeppelin.apache.org/) provide convenient tools for data visualization and 
-exploratory research. Kotlin integrates with these tools to help you explore data, share your findings with 
-colleagues, or build up your data science and machine learning skills.
+[Jupyter Notebook](https://jupyter.org/) 与 [Apache Zeppelin](https://zeppelin.apache.org/)
+等笔记本为数据可视化与探索性研究提供了方便的工具。
+Kotlin 与这些工具集成在一起，可以帮助探索数据，与同事共享发现或建立数据科学和机器学习技能。
 
-### Jupyter Kotlin kernel
+### Jupyter Kotlin 内核
 
-The Jupyter Notebook is an open-source web application that allows you to create and share documents 
-(aka "notebooks") that can contain code, visualizations, and markdown text. 
-[Kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter) is an open source project that brings Kotlin 
-support to Jupyter Notebook. 
+Jupyter Notebook 是一个开源 Web 应用程序，
+它允许创建与共享包含代码、可视化与标记文本的文档（也称为“笔记本”）。
+[Kotlin-jupyter](https://github.com/Kotlin/kotlin-jupyter) 是一个开源项目，
+它为 Jupyter Notebook 带来了 Kotlin 支持。
 
 ![Kotlin in Jupyter notebook]({{ url_for('asset', path='images/landing/data-science/kotlin-jupyter-kernel.png')}})
 
-Check out Kotlin kernel's [GitHub repo](https://github.com/Kotlin/kotlin-jupyter) for installation 
-instructions, documentation, and examples.
+查看 Kotlin 内核的 [GitHub 仓库](https://github.com/Kotlin/kotlin-jupyter) 
+以获取安装说明、文档与示例。
 
-### Zeppelin Kotlin interpreter
+### Zeppelin Kotlin 解释器
 
-Apache Zeppelin is a popular web-based solution for interactive data analytics. It provides strong support 
-for the Apache Spark cluster computing system, which is particularly useful for data engineering. 
-Starting from [version 0.9.0](https://zeppelin.apache.org/docs/0.9.0-preview1/), Apache Zeppelin comes with 
-bundled Kotlin interpreter. 
+Apache Zeppelin 是一种流行的基于 Web 的交互式数据分析解决方案。
+它为 Apache Spark 集群计算系统提供了强大的支持，
+这对数据工程特别有用。
+从[版本 0.9.0](https://zeppelin.apache.org/docs/0.9.0-preview1/) 开始，Apache Zeppelin 附带了捆绑的 Kotlin 解释器。
 
 ![Kotlin in Zeppelin notebook]({{ url_for('asset', path='images/landing/data-science/kotlin-zeppelin-interpreter.png')}})
 
-## Libraries
+## 类库
 
-The ecosystem of libraries for data-related tasks created by the Kotlin community is rapidly expanding. 
-Here are some libraries that you may find useful:
+Kotlin 社区创建的用于数据相关任务的类库生态系统正在迅速扩展。
+以下是一些可能会有用的库：
 
 ### Kotlin 库
 * [kotlin-statistics](https://github.com/thomasnield/kotlin-statistics) 是一个为<!--
