@@ -4,7 +4,7 @@ title: Security
 main_nav_id: security
 ---
 
-# Kotlin Security
+# Kotlin 安全性
 
 We do our best to make sure our products are free of security vulnerabilities. To reduce the risk of introducing a vulnerability,
 you can follow these best practices: 
