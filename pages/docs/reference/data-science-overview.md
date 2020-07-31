@@ -7,9 +7,9 @@ title: "Kotlin 用于数据科学"
 
 # Kotlin 用于数据科学
 
-从构建数据管道到生产机器学习模型，
+从构建数据流水线到生产机器学习模型，
 Kotlin 可能是处理数据的绝佳选择：
-* Kotlin 简洁，易读且易于学习。
+* Kotlin 简洁、易读且易于学习。
 * 静态类型与空安全有助于创建可靠的、可维护的、易于故障排除的代码。
 * 作为一种 JVM 语言，Kotlin 提供了出色的性能表现，
 并具有充分利用久经考验的 Java 库的整个生态系统的能力。
@@ -18,7 +18,7 @@ Kotlin 可能是处理数据的绝佳选择：
 
 [Jupyter Notebook](https://jupyter.org/) 与 [Apache Zeppelin](https://zeppelin.apache.org/)
 等笔记本为数据可视化与探索性研究提供了方便的工具。
-Kotlin 与这些工具集成在一起，可以帮助探索数据，与同事共享发现或建立数据科学和机器学习技能。
+Kotlin 与这些工具集成在一起，可以帮助探索数据、与同事共享发现或建立数据科学和机器学习技能。
 
 ### Jupyter Kotlin 内核
 
@@ -37,7 +37,7 @@ Jupyter Notebook 是一个开源 Web 应用程序，
 Apache Zeppelin 是一种流行的基于 Web 的交互式数据分析解决方案。
 它为 Apache Spark 集群计算系统提供了强大的支持，
 这对数据工程特别有用。
-从[版本 0.9.0](https://zeppelin.apache.org/docs/0.9.0-preview1/) 开始，Apache Zeppelin 附带了捆绑的 Kotlin 解释器。
+从[版本 0.9.0](https://zeppelin.apache.org/docs/0.9.0-preview1/) 开始，Apache Zeppelin 内置了捆绑的 Kotlin 解释器。
 
 ![Kotlin in Zeppelin notebook]({{ url_for('asset', path='images/landing/data-science/kotlin-zeppelin-interpreter.png')}})
 
