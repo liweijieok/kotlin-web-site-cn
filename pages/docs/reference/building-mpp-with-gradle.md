@@ -78,10 +78,10 @@ Kotlin 多平台项目的布局由以下构建块构成：
 
 ## 搭建一个多平台项目
 
-可以在 IDE 的 New Project - Kotlin 对话框下选择一个多平台项目模板<!--
+可以在 IDE 的 新建项目(New Project) - Kotlin 对话框下选择一个多平台项目模板<!--
 -->来创建一个多平台项目。
 
-例如，如果选择了“Kotlin (Multiplatform Library)”，会创建一个包含三个<!--
+例如，如果选择了“Kotlin 多平台库(Multiplatform Library)”，会创建一个包含三个<!--
 -->[目标](#设置目标)的库项目，其中一个用于 JVM，一个用于 JS，还有一个用于您正在使用的原生平台。
 这些是在 `build.gradle` <!--
 -->脚本中以下列方式配置的：
@@ -1303,13 +1303,13 @@ Gradle 模块元数据提供了丰富的发布与解析依赖项的特性，这�
 -->包含一个特殊的 “根” 模块，它基于整个库，并且<!--
 -->在添加为依赖项时自动解析到适当的特定平台构件中，如下所述。
 
-In Gradle 6.0 and above, the module metadata is always used during dependency resolution and included in publications.
+在 Gradle 6.0 及更高版本中，模块元数据始终在依赖关系解析期间使用，并包含在发布项中。
 
-In earlier Gradle versions starting from 5.3，依赖项解析期间使用模块元数据，但在默认情况下，发布项不会<!--
+从 5.3 开始的早期 Gradle 版本中，依赖项解析期间使用模块元数据，但在默认情况下，发布项不会<!--
 -->包含任何模块元数据。为了启用发布模块元数据，需要添加
 `enableFeaturePreview("GRADLE_METADATA")` 到根项目的 `settings.gradle` 文件。
 
-When publications include module metadata，一个额外的名为 `kotlinMultiplatform` 的 “根” 发布项将添加到项目的<!--
+当发布项包含模块元数据时，一个额外的名为 `kotlinMultiplatform` 的 “根” 发布项将添加到项目的<!--
 -->发布项中。这个发布项的默认构件 ID 与没有任何额外后缀的项目名称相匹配。
 为了配置这个发布项，可以通过 `maven-publish` 插件的 `publishing { …… }` DSL 访问：
 
