@@ -37,7 +37,7 @@ Jupyter Notebook 是一个开源 Web 应用程序，
 Apache Zeppelin 是一种流行的基于 Web 的交互式数据分析解决方案。
 它为 Apache Spark 集群计算系统提供了强大的支持，
 这对数据工程特别有用。
-从[版本 0.9.0](https://zeppelin.apache.org/docs/0.9.0-preview1/) 开始，Apache Zeppelin 内置了捆绑的 Kotlin 解释器。
+从[版本 0.9.0](https://zeppelin.apache.org/docs/0.9.0-preview1/) 开始，Apache Zeppelin 内置了 Kotlin 解释器。
 
 ![Kotlin in Zeppelin notebook]({{ url_for('asset', path='images/landing/data-science/kotlin-zeppelin-interpreter.png')}})
 
