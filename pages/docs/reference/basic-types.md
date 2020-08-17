@@ -158,7 +158,7 @@ fun main() {
     println(a == a) // 输出“true”
     val boxedA: Int? = a
     val anotherBoxedA: Int? = a
-    println(boxedA == anotherBoxedA) // 输出“true”
+    println(boxedA == anotherBoxedA) // 输出“false”
 //sampleEnd
 }
 ```
